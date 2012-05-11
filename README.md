@@ -7,6 +7,8 @@ Source: http://mxr.mozilla.org/mozilla-central/source/testing/mochitest/specialp
 
 License: http://www.mozilla.org/foundation/licensing.html
 
+Download: https://github.com/downloads/humphd/SpecialPowers/SpecialPowers.xpi (pre-built XPI)
+
 Usage
 =====
 
