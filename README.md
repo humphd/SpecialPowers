@@ -11,3 +11,8 @@ Usage
 =====
 
 Copy the SpecialPowers.xpi into your Firefox browser to install the extension.  See https://developer.mozilla.org/en/SpecialPowers for details on using it.  NOTE: window.SpecialPowers will exist when the extension is installed.
+
+TODO
+====
+
+* Add back in support for http://mxr.mozilla.org/mozilla-central/source/testing/mochitest/MockFilePicker.jsm and package it with the extension (currently removed).
