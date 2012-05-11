@@ -46,7 +46,7 @@ var Cc = Components.classes;
 // XXXhumph: not packaging this atm, see:
 // http://mxr.mozilla.org/mozilla-central/source/testing/mochitest/MockFilePicker.jsm
 // http://mxr.mozilla.org/mozilla-central/source/testing/mochitest/jar.mn
-Components.utils.import("resource://mochikit/MockFilePicker.jsm");
+//Components.utils.import("resource://mochikit/MockFilePicker.jsm");
 
 function SpecialPowersAPI() { 
   this._consoleListeners = [];
