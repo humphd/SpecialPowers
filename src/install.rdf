@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>special-powers@mozilla.org</em:id>
-    <em:version>2010.07.23</em:version>
+    <em:version>2012.05.11</em:version>
     <em:type>2</em:type>
 
     <!-- Target Application this extension can install into,

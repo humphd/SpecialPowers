@@ -42,6 +42,10 @@
 var Ci = Components.interfaces;
 var Cc = Components.classes;
 
+
+// XXXhumph: not packaging this atm, see:
+// http://mxr.mozilla.org/mozilla-central/source/testing/mochitest/MockFilePicker.jsm
+// http://mxr.mozilla.org/mozilla-central/source/testing/mochitest/jar.mn
 Components.utils.import("resource://mochikit/MockFilePicker.jsm");
 
 function SpecialPowersAPI() { 
@@ -384,9 +388,10 @@ SpecialPowersAPI.prototype = {
   wrap: wrapPrivileged,
   unwrap: unwrapPrivileged,
 
-  get MockFilePicker() {
-    return MockFilePicker
-  },
+// XXXhumph - not present (see top of file)
+//  get MockFilePicker() {
+//    return MockFilePicker
+//  },
 
   getDOMWindowUtils: function(aWindow) {
     if (aWindow == this.window.get() && this.DOMWindowUtils != null)
